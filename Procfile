@@ -1,0 +1,1 @@
+web: python kotik_bot.py
