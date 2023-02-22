@@ -59,7 +59,7 @@ def get_user_text(message):
     elif message.text == "hello":
         bot.send_message(message.chat.id, 'и тебе привет!')
     elif message.text == "photo":
-        photo = open('photo_grey_cat.jpg', 'rb')
+        photo = open('photo_grey_cat.png', 'rb')
         bot.send_photo(message.chat.id, photo)
     else:
         bot.send_message(message.chat.id, 'я тебя не понимать, набери: /start')
