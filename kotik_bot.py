@@ -4,7 +4,7 @@ bot = telebot.TeleBot('5717706673:AAHX_XKbx-fPbbig-1wtuJuD9qjy6UFZmds')
 
 @bot.message_handler(commands=['start'])
 def start(message):
-    markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
+    markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2, one_time_keyboard= False)
     btn1 = types.KeyboardButton('/bing')
     btn2 = types.KeyboardButton('/fin')
     btn3 = types.KeyboardButton('/soccer')
